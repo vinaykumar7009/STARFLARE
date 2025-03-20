@@ -132,4 +132,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-For support, please email [support@email.com] or open an issue in the repository.
+For support, please email [contactvinaykumarr@gmail.com] or open an issue in the repository.
