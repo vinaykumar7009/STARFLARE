@@ -1,0 +1,12 @@
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  margin-top: 80px; /* Height of the header */
+  padding: 2rem;
+  flex: 1;
+  background-color: #f8f9fa;
+} 

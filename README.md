@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# Campaign Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application for managing marketing campaigns and creator collaborations. This application helps brands and businesses streamline their campaign creation process, from setting goals to managing deliverables and creator partnerships.
+
+## Features
+
+### 1. Campaign Setup
+- **Goal Setting**: Choose between awareness and traffic-focused campaigns
+- **Conversion Tracking**: Select between conversion goals and content creation
+- **Location Targeting**: Add and manage multiple target locations
+
+### 2. Creator Management
+- **Creator Types**: Choose between Influencers and UGC creators
+- **Creator Preferences**: Set specific requirements for creator selection
+- **Collaboration Settings**: Define gifting and shipment options
+
+### 3. Campaign Design
+- **Platform Selection**: Choose from multiple social media platforms
+- **Content Types**: Select various content deliverables (Posts, Reels, Videos)
+- **Product Details**: Add product links, categories, and market values
+- **Media Upload**: Support for cover images and multiple product images
+
+### 4. Campaign Overview
+- **Summary Dashboard**: Complete overview of campaign settings
+- **Progress Tracking**: Step-by-step campaign setup process
+- **Review & Edit**: Easy modification of campaign details
+
+## Tech Stack
+
+- React.js
+- React Router for navigation
+- Context API for state management
+- Modern CSS with responsive design
+- React Icons for UI elements
+
+## Project Structure
+
+```
+src/
+├── components/         # Reusable UI components
+├── context/           # React Context for state management
+├── pages/             # Main page components
+├── styles/            # CSS styles
+└── App.js            # Main application component
+```
+
+## Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   cd my-campaign-app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm start
+   ```
+   The application will be available at `http://localhost:3000`
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start`: Runs the app in development mode
+- `npm test`: Launches the test runner
+- `npm run build`: Builds the app for production
+- `npm run eject`: Ejects from Create React App
 
-### `npm start`
+## Component Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Header
+- Search functionality
+- Notification system
+- Profile management
+- Settings access
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Sidebar
+- Navigation menu
+- Toggle functionality
+- Campaign sections
 
-### `npm test`
+### Main Pages
+1. **Dashboard**: Campaign overview and initial setup
+2. **Deliverable**: Content type and platform selection
+3. **Audience**: Target audience and creator preferences
+4. **Campaign Design**: Visual elements and product details
+5. **Summary**: Complete campaign overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Styling
 
-### `npm run build`
+The application uses a modular CSS approach with separate stylesheets for each component. Global styles are managed through `styles.css` with component-specific styles in the `styles/` directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Responsive Design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Mobile-first approach
+- Responsive layout adjustments
+- Sidebar collapse functionality
+- Adaptive content display
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## State Management
 
-### `npm run eject`
+Uses React Context API for global state management:
+- Campaign data
+- User preferences
+- Navigation state
+- Form data persistence
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Enhancements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- User authentication
+- Campaign analytics
+- Creator marketplace integration
+- Advanced targeting options
+- Campaign performance metrics
+- Export functionality
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Support
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For support, please email [support@email.com] or open an issue in the repository.

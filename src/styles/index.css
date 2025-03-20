@@ -1,0 +1,55 @@
+/* Component styles */
+@import './Header.css';
+@import './Sidebar.css';
+@import './Deliverable.css';
+@import './Audience.css';
+@import './CampaignDesign.css';
+@import './Summary.css';
+
+/* Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 250px; /* Width of the sidebar */
+  margin-top: 80px; /* Height of the header */
+  padding: 2rem;
+  transition: margin-left 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.app.sidebar-closed .main-content {
+  margin-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+} 
